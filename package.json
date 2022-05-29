@@ -1,12 +1,19 @@
 {
   "name": "fastify-rate-limiter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "Simple rate limiter plugin based on memory and token bucket algorithm.",
   "engines": {
     "node": ">= 12"
   },
+  "keywords": [
+    "ratelimit",
+    "fastify",
+    "limit",
+    "plugin",
+    "token bucket"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
@@ -52,7 +59,11 @@
       "git add"
     ]
   },
-  "author": "",
+  "author": "Margaux7 <Margaux7222@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Margaux7/fastify-rate-limiter.git"
+  },
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.5.0",
