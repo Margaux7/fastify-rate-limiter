@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Coverage
+coverage
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store
+
+# actions
+.github
+
+src/
+__tests__/
+example/
+commitlint.config.js
+tsconfig*
+jest*
+typescript.eslint.json
+.editorconfig
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc
+.gitlab-ci.yml
+.yarnrc
